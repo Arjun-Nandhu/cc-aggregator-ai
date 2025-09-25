@@ -1,0 +1,1 @@
+This App Authenticates to an Account in a supported financial instutes, fetches Transactions Etc. and saves data to a DB for further AI analysis.  
