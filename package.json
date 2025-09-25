@@ -1,0 +1,46 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prisma": "prisma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjun-Nandhu/cc-aggregator-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arjun-Nandhu/cc-aggregator-ai/issues"
+  },
+  "homepage": "https://github.com/Arjun-Nandhu/cc-aggregator-ai#readme",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pino": "^9.11.0",
+    "pino-http": "^10.5.0",
+    "pino-pretty": "^13.1.1",
+    "plaid": "^38.1.0",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
